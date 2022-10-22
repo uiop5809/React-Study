@@ -1,10 +1,10 @@
 import "./App.css";
-import Condition from "./components/ConditionalRendering/Condition";
+import List from "./components/List/List";
 
 function App() {
   return (
-    <div className="App">
-      <Condition />
+    <div>
+      <List />
     </div>
   );
 }
