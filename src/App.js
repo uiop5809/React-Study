@@ -1,6 +1,6 @@
 import "./App.css";
-import Composition from "./components/2-4.Props/Composition.jsx";
-import Extraction from "./components/2-4.Props/Extraction/Extraction.jsx";
+import Composition from "./components/Props/Composition.jsx";
+import Extraction from "./components/Props/Extraction/Extraction.jsx";
 
 function App() {
   return (
