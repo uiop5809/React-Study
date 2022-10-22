@@ -1,10 +1,10 @@
 import "./App.css";
-import Event from "./components/Event/Event";
+import Condition from "./components/ConditionalRendering/Condition";
 
 function App() {
   return (
     <div className="App">
-      <Event />
+      <Condition />
     </div>
   );
 }
