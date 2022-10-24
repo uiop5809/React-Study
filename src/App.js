@@ -1,10 +1,12 @@
 import "./App.css";
-import List from "./components/List/List";
+import ControlledComponent from "./components/Form/ControlledComponent";
+import UncontrolledComponent from "./components/Form/UncontrolledComponent.jsx";
 
 function App() {
   return (
     <div>
-      <List />
+      <ControlledComponent /> <br />
+      <UncontrolledComponent />
     </div>
   );
 }
