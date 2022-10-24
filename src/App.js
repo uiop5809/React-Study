@@ -1,12 +1,12 @@
 import "./App.css";
-import ControlledComponent from "./components/Form/ControlledComponent";
-import UncontrolledComponent from "./components/Form/UncontrolledComponent.jsx";
+import State from "./components/Hooks/State.jsx";
+import Reducer from "./components/Hooks/Reducer.jsx";
 
 function App() {
   return (
     <div>
-      <ControlledComponent /> <br />
-      <UncontrolledComponent />
+      <State />
+      <Reducer />
     </div>
   );
 }
