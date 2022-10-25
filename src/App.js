@@ -1,12 +1,10 @@
 import "./App.css";
-import State from "./components/Hooks/State.jsx";
-import Reducer from "./components/Hooks/Reducer.jsx";
+import ThankyouDialog from "./components/Composition2/ThankyouDialog";
 
 function App() {
   return (
     <div>
-      <State />
-      <Reducer />
+      <ThankyouDialog />
     </div>
   );
 }
