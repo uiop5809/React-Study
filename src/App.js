@@ -1,15 +1,8 @@
 import "./App.css";
-import ThankyouDialog from "./components/Composition2/ThankyouDialog";
-import Input from "./components/HOC/Input.jsx";
-import Button from "./components/HOC/Button";
+import Example from "./components/Context/Example";
 
 function App() {
-  return (
-    <div>
-      <Input />
-      <Button />
-    </div>
-  );
+  return <Example />;
 }
 
 export default App;
