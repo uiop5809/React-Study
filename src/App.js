@@ -1,8 +1,8 @@
 import "./App.css";
-import Example from "./components/Portal/Example";
+import MouseTracker from "./components/RenderProps/MouseTracker";
 
 function App() {
-  return <Example />;
+  return <MouseTracker />;
 }
 
 export default App;
