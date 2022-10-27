@@ -1,8 +1,8 @@
 import "./App.css";
-import MouseTracker from "./components/RenderProps/MouseTracker";
+import Component from "./components/PropTypes/Component.jsx";
 
 function App() {
-  return <MouseTracker />;
+  return <Component />;
 }
 
 export default App;
