@@ -1,8 +1,12 @@
 import "./App.css";
-import Component from "./components/PropTypes/Component.jsx";
+import MomentExample from "./components/Moment/MomentExample.jsx";
 
 function App() {
-  return <Component />;
+  return (
+    <div>
+      <MomentExample />
+    </div>
+  );
 }
 
 export default App;
