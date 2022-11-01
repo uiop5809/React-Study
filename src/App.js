@@ -1,10 +1,10 @@
 import "./App.css";
-import DayjsExample from "./components/Dayjs/DayjsExample";
+import StyledComponent from "./components/StyledComponents/StyledComponent.jsx";
 
 function App() {
   return (
     <div>
-      <DayjsExample />
+      <StyledComponent />
     </div>
   );
 }
