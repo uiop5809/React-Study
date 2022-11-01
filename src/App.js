@@ -1,10 +1,10 @@
 import "./App.css";
-import StyledComponent from "./components/StyledComponents/StyledComponent.jsx";
+import Emotion from "./components/Emotion/Emotion.jsx";
 
 function App() {
   return (
-    <div>
-      <StyledComponent />
+    <div className="App">
+      <Emotion />
     </div>
   );
 }
